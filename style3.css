@@ -11,23 +11,26 @@ body{
 }
 
 #pop-up{
-    height: 80vh;
-    width: 140vh;
+    height: 95vh;
+    width: 150vh;
     background-color: black;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    border-radius: 3px;
 }
 
 #heading-tile{
+
     width: 100%;
     height: 11%;
     display: flex;
     box-sizing: border-box;
-    justify-content: flex-end;
+    justify-content:flex-end;
     gap: 10px;
     padding: 5px;
+    padding-top: 20px;
     padding-right: 20px;
 }
 
@@ -55,7 +58,7 @@ body{
 }
 
 h1{
-    margin-top: 0px;
+    margin-top: 10px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700px;
     color: #FFA900;
@@ -64,6 +67,7 @@ h1{
 }
 
 #Welcome{
+    margin-top: 5x;
     font-family: 'League Spartan', sans-serif;
     color: #D2D2D2;
 }
@@ -73,6 +77,7 @@ h1{
     font-size: 20px;
     line-height: 35px;
     margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 #p2{
@@ -88,6 +93,7 @@ h1{
     font-weight: 500px;
     color: #D2D2D2;
     border-left: solid 8px #FFA900;
+    padding-left: 5px;
     width: 350px;
     height: 38px;
     line-height: 20px;
@@ -99,6 +105,7 @@ h1{
 #checkbox-area{
     margin-top: 10px;
     margin-left: 15px;
+    padding: 5px;
 }
 
 #checkbox-area{
